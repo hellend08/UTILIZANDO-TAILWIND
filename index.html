@@ -1,12 +1,43 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../style.css">
-    <title>Document</title>
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+
+    <title>Tailwind</title>
 </head>
 <body>
+    <header>
+        <nav class="w-full  py-20 bg-yellow-100">
+            <ul class="text-center">
+                <li><a href="">Contáctame</a></li>
+                <li><a href="">Tienda</a></li>
+                <li><a href="">Puntos de entrega</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container mx-auto">
+        <button class="bg-green-500 sm:bg-green-600 hover:bg-green-400 text-white py-2 px-4 m-5 rounded-lg shadow-md font-semibold">
+            COMPRA AQUÍ
+        </button>
+    </div>
+    <div class="m-5 p-5 border bg-yellow-100">
+        <p class="text-base sm:text-lg">Lorem Ipsum is simply dummy text of the printing and typesetting 
+            industry. Lorem Ipsum has been the industry's standard dummy 
+            text ever since the 1500s, when an unknown printer took a galley
+             of type and scrambled it to make a type specimen book. 
+             It has survived not only five centuries, but also the leap into
+              electronic typesetting, remaining essentially unchanged. 
+              It was popularised in the 1960s with the release of Letraset 
+              sheets containing Lorem Ipsum passages, and more recently with 
+              desktop publishing software like Aldus PageMaker including 
+              versions of Lorem Ipsum.
+        </p>
+    </div>
+   <script src="main.js"></script>
+    
     
 </body>
 </html>
